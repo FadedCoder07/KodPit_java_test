@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="classes" thread-count="10">
+
+    <test name="AllTests">
+        <classes>
+            <class name="com.qa.TestBasin"/>
+            <class name="com.qa.TestDil"/>
+            <class name="com.qa.TestGizlilikSozlesme"/>
+            <class name="com.qa.TestIadeSozlesme"/>
+            <class name="com.qa.TestInsanKaynaklari"/>
+            <class name="com.qa.TestKullaniciSozlesme"/>
+            <class name="com.qa.TestKurumsal"/>
+            <class name="com.qa.TestStaj"/>
+            <class name="com.qa.TestTeknoloji"/>
+            <class name="com.qa.TestYoutube"/>
+        </classes>
+    </test>
+
+</suite>
+
